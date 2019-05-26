@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.danie.battleshipnewversion.MainActivity"
+    android:background="@drawable/startimage">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+
+    <TextView
+
+        android:id="@+id/selectLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF8DC"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:text="@string/select_Level"
+        />
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/selectLevel"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+
+        >
+
+        <RadioButton
+            android:text="@string/easy"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/easy"
+            android:checked="true"
+            android:fontFamily="serif"
+            android:textColor="#FFF8DC"
+            android:buttonTint="@color/colorAccent"
+
+
+            />
+
+        <RadioButton
+            android:text="@string/medium"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meduim"
+            android:fontFamily="serif"
+            android:textColor="#FFF8DC"
+            android:buttonTint="@color/colorAccent"
+
+
+            />
+
+        <RadioButton
+            android:text="@string/hard"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:id="@+id/hard"
+            android:textColor="#FFF8DC"
+            android:buttonTint="@color/colorAccent"
+
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/startButton"
+        android:text="@string/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:textColor="#191970"
+        android:textSize="20dp"
+        android:onClick="startGame"
+        android:textStyle="bold"
+
+        />
+
+       <Button
+           android:id="@+id/table"
+           android:text="@string/highscore"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="5dp"
+           android:fontFamily="serif"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/startButton"
+           android:textColor="#191970"
+           android:textSize="20dp"
+           android:textStyle="bold"
+
+           />
+   </RelativeLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.danie.battleshipnewversion.MainActivity"
+    android:background="@drawable/winlossimage">
+
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFF8DC"
+        android:layout_centerHorizontal="true"
+        android:text="@string/congratulations"
+        android:fontFamily="serif"
+        />
+
+    <TextView
+    android:id="@+id/you_won"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:textSize="60dp"
+    android:textStyle="bold"
+    android:textColor="#FFF8DC"
+    android:layout_below="@+id/winner"
+    android:layout_centerHorizontal="true"
+    android:text="@string/you_won"
+    android:fontFamily="serif"
+    />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#FFF8DC"
+        android:layout_below="@+id/you_won"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF8DC"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:hint="Enter name"
+        android:textColorHint="#FFFFFF"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveScore"
+        android:layout_marginTop="20dp"
+        android:text="@string/save"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#191970"
+        android:layout_below="@+id/editText_name"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/restartButten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveScore"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:onClick="restartGame"
+        android:layout_centerHorizontal="true"
+        android:text="@string/restartButton"
+        android:textColor="#191970"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

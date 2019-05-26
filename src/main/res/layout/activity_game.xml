@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.danie.battleshipnewversion.MainActivity"
+    android:background="@drawable/gameimage">
+
+
+    <TextView
+        android:id="@+id/yourBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFF8DC"
+        android:text="@string/your_Board"
+        android:fontFamily="serif"
+
+        />
+
+    <GridView
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:id="@+id/grid1"
+        android:layout_below="@+id/yourBoard"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        >
+    </GridView>
+
+    <TextView
+        android:id="@+id/computerBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF8DC"
+        android:text="@string/computer_Board"
+        android:fontFamily="serif"
+        android:layout_below="@id/grid1"
+        />
+    <GridView
+        android:layout_marginTop="5dp"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:id="@+id/grid2"
+        android:layout_below="@+id/computerBoard"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+    </GridView>
+
+    <TextView
+        android:id="@+id/whoTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:layout_below="@id/grid2"
+        android:textColor="#FFF8DC"
+        android:text="@string/player_turn"
+        />
+
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:indeterminate="true"
+        android:layout_below="@id/grid2"
+        android:id="@+id/progressBar"
+
+        />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/replaceShip"
+        android:textSize="15dp"
+        android:text="@string/Replacing_ships"
+        android:textStyle="bold"
+        android:textColor="#FF33"
+        android:layout_below="@id/grid1"/>
+
+</RelativeLayout>

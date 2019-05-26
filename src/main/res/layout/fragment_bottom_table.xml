@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.danie.battleshipnewversion.MainActivity"
+    android:background="@drawable/winlossimage">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choseTable"
+            android:textSize="40dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFF"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:text="chose table"
+         />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/easyTable"
+            android:layout_below="@+id/choseTable"
+            android:layout_marginTop="50dp"
+            android:text="@string/easyTableData"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#191970"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+
+            />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/medTable"
+        android:layout_marginTop="50dp"
+        android:text="@string/medTableData"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#191970"
+        android:layout_below="@+id/easyTable"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hardTable"
+        android:layout_marginTop="50dp"
+        android:text="@string/hardTableData"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#191970"
+        android:layout_below="@+id/medTable"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+
+        />
+    </RelativeLayout>
+
+
+

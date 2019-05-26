@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BattleShipNewVersion</string>
+    <string name="select_Level">Select Level</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="startButton">Start Button</string>
+    <string name="highscore">High Score</string>
+    <string name="your_Board">Your Board</string>
+    <string name="computer_Board">Computer Board</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="you_won">You Won</string>
+    <string name="set_name">  Name</string>
+    <string name="save">Save</string>
+    <string name="restartButton">Restart Button</string>
+    <string name="sorry">Sorry,</string>
+    <string name="you_loss">You Loss</string>
+    <string name="tryagain">Try again</string>
+    <string name="easyTableData">Highscore Easy Level</string>
+    <string name="medTableData">Highscore Medium Level</string>
+    <string name="hardTableData">Highscore Hard Level</string>
+
+    <string name="computer_Turn">"Computer Turn"</string>
+    <string name="ComputerFinihsedhisturn">Computer Finihsed his turn</string>
+    <string name="player_turn">Player Turn</string>
+    <string name="Data_Inserted">Data Inserted</string>
+    <string name="Data_not_Inserted">Data not Inserted</string>
+    <string name="cantsave">Cant save a score without a name</string>
+    <string name="Score_already_saved">Score already saved</string>
+    <string name="Service_Connected">Service Connected</string>
+    <string name="No_Score_Saved">No Score Saved</string>
+    <string name="Replacing_ships">Replace ships !!</string>
+</resources>
