@@ -7,4 +7,4 @@ and the objective of the game is to destroy the opposing player's fleet.
 The game contains 3 difficulty levels, For each level, the victories can be saved.
 The player is playing in front of a computer.
 The position of the ships was determined using an algorithm developed.
-Using sensorEvent to move the ships during the game to challenge the game.
+Using sensorEvent to move the ships during the game to challenge the player.
