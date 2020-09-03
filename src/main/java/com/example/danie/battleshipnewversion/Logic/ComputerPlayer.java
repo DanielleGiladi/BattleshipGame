@@ -6,7 +6,7 @@ public class ComputerPlayer {
 
     public void think() {
         try {
-            ///
+            
             Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
