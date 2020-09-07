@@ -13,3 +13,7 @@ The player is playing in front of a computer.
 The position of the ships was determined using an algorithm developed.
 
 Using sensorEvent to move the ships during the game to challenge the player.
+
+<img src = "imagesBattleShip/mainScreen.jpg" width="200"> <img src = "imagesBattleShip/gameScreen.jpg" width="200"> <img src = "imagesBattleShip/gameScreen2.jpg" width="200">
+
+<img src = "imagesBattleShip/winScreen.jpg" width="200"> <img src = "imagesBattleShip/tableScreen.jpg" width="200">
